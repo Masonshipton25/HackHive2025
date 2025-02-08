@@ -7,3 +7,5 @@ Statistics Canada: https://www.statcan.gc.ca/eng/start
 FirstVoices: https://www.firstvoices.com/
 
 Indigenous Services Canada: https://www.sac-isc.gc.ca/
+
+First Nations Information Governance Centre (FNIGC): https://fnigc.ca/fnigc-data-online-search-results/?_sft_data-category=demographics
