@@ -10,6 +10,24 @@ With TurtleTalk, we hope to make it easier to access and retrieve information on
 
 ## Methodology
 
-TurtleTalk is built by fine-tuning mBERT on a curated dataset of Indigenous languages, cultures, and traditions. mBERT was chosen for its multilingual capabilities and proven effectiveness in fine-tuning for low-resource languages, making it well-suited for Indigenous language processing.
+![TurtleTalk architecture diagram](./diagram.png)
 
-The dataset is sourced from The Canadian Encyclopedia, Statistics Canada, FirstVoices, Indigenous Services Canada, and the First Nations Information Governance Centre (FNIGC), all of which provide some publicly available data. It can be further expanded with additional sources such as Native Land Digital, the National Centre for Truth and Reconciliation (NCTR), and the Assembly of First Nations (AFN), which also offer varying levels of public data. While the dataset primarily focuses on First Nations, resources from the Métis Nation of Canada and Inuit Tapiriit Kanatami (ITK) provide data on non-First Nations Indigenous communities, some of which is publicly accessible or available upon request.
+TurtleTalk is built by fine-tuning mBERT on a curated dataset of Indigenous languages, cultures, and traditions. **mBERT** was chosen for its multilingual capabilities and proven effectiveness in fine-tuning for low-resource languages, making it well-suited for Indigenous language processing.
+
+The model is developed using the **Hugging Face Transformers** library for loading, initializing, and training mBERT. The **PyTorch** library is used for dataset handling, sentence tokenization, fine-tuning, and making predictions on input text. This framework ensures scalability, allowing for future expansion with more Indigenous languages and dialects.
+
+The dataset is sourced from publicly available resources, including:
++ The Canadian Encyclopedia
++ Statistics Canada
++ FirstVoices
++ Indigenous Services Canada
++ First Nations Information Governance Centre (FNIGC)
+To enhance coverage and accuracy, additional data can be integrated from sources such as:
++ Native Land Digital
++ The National Centre for Truth and Reconciliation (NCTR)
++ The Assembly of First Nations (AFN)
+While the dataset currently has a bias towards First Nations, it can incorporate resources from the Métis Nation of Canada and Inuit Tapiriit Kanatami (ITK) to ensure broader Indigenous representation. Across all these datasets, some of this data is publicly accessible, while other portions may require permission for use.
+
+Ensuring ethical AI use is a core priority. TurtleTalk is designed to be led by Indigenous groups,granting communities agency over data use and interpretation. Privacy considerations are carefully managed by sourcing publicly available data and respecting access restrictions. Efforts are made to mitigate biases in Indigenous language processing by incorporating diverse sources and perspectives.
+
+By centralizing Indigenous knowledge in a structured and accessible AI model, TurtleTalk addresses the challenge of fragmented information while prioritizing scalability, security, and ethical AI development.

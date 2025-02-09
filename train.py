@@ -2,15 +2,10 @@
 # Mason Shipton, Lukas Fenkam, Rayan Alam, Christopher Kiige
 # Description: Loads the dataset, initializes the model, and trains it.
 # Date Created: 2025-02-08.
-# Date Last Revised: 2025-02-08.
+# Date Last Revised: 2025-02-09.
 
 from transformers import AutoTokenizer, AutoModelForMaskedLM, Trainer, TrainingArguments
 from dataset import IndigenousDataset
-import torch
-
-from transformers import AutoTokenizer, AutoModelForMaskedLM, Trainer, TrainingArguments
-from dataset import IndigenousDataset
-import torch
 
 def train_model(dataset_path, model_name="bert-base-multilingual-cased", epochs=50, batch_size=8):
     """
