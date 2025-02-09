@@ -22,12 +22,21 @@ The dataset is sourced from publicly available resources, including:
 + FirstVoices
 + Indigenous Services Canada
 + First Nations Information Governance Centre (FNIGC)
+
 To enhance coverage and accuracy, additional data can be integrated from sources such as:
 + Native Land Digital
 + The National Centre for Truth and Reconciliation (NCTR)
 + The Assembly of First Nations (AFN)
+
 While the dataset currently has a bias towards First Nations, it can incorporate resources from the Métis Nation of Canada and Inuit Tapiriit Kanatami (ITK) to ensure broader Indigenous representation. Across all these datasets, some of this data is publicly accessible, while other portions may require permission for use.
 
 Ensuring ethical AI use is a core priority. TurtleTalk is designed to be led by Indigenous groups,granting communities agency over data use and interpretation. Privacy considerations are carefully managed by sourcing publicly available data and respecting access restrictions. Efforts are made to mitigate biases in Indigenous language processing by incorporating diverse sources and perspectives.
 
 By centralizing Indigenous knowledge in a structured and accessible AI model, TurtleTalk addresses the challenge of fragmented information while prioritizing scalability, security, and ethical AI development.
+
+## Example
+
+![Example Prompt](./example-1.png)
+
+![Example Response](./example-1.png)
+
