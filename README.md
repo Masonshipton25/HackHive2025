@@ -11,6 +11,7 @@ With TurtleTalk, we hope to make it easier to access and retrieve information on
 ## Methodology
 
 ![TurtleTalk architecture diagram](./diagram.png)
+TurtleTalk system architecture diagram
 
 TurtleTalk is built by fine-tuning mBERT on a curated dataset of Indigenous languages, cultures, and traditions. **mBERT** was chosen for its multilingual capabilities and proven effectiveness in fine-tuning for low-resource languages, making it well-suited for Indigenous language processing.
 
@@ -36,7 +37,10 @@ By centralizing Indigenous knowledge in a structured and accessible AI model, Tu
 
 ## Example
 
+Below are designs for the TurtleTalk prompt screen and model conversations.
+
 ![Example Prompt](./example-1.png)
 
-![Example Response](./example-1.png)
+![Example Response](./example-2.png)
+
 
